@@ -1,0 +1,19 @@
+{
+    "python.pythonPath": ".venv/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": ".venv/bin/python",
+    "python.formatting.blackArgs": ["-mblack"]
+}

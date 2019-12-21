@@ -8,10 +8,7 @@ protocol for a standalone Bitcoin miner. It has no dependencies outside of
 standard Python libraries and a JSON-HTTP connection to your local Bitcoin
 daemon.
 
+This is forked from original [ntgbtminer](https://github.com/vsergeev/ntgbtminer) and updated
+to run on Python 3+ with some simplifications to aid my understanding of bitcoin mining.
+
 ntgbtminer is MIT licensed. See the provided LICENSE file.
-
-Donations are welcome at `15PKyTs3jJ3Nyf3i6R7D9tfGCY1ZbtqWdv` :)
-
-Feel free to report any issues, bug reports, or suggestions at github or by
-email at vsergeev at gmail.
-

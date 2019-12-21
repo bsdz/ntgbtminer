@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ntgbtminer"
+version = "0.1.0"
+description = ""
+authors = ["Blair Azzopardi <blairuk@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+coincurve = "^13.0.0"
+bit = "^0.6.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.7.9"
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
